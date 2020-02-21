@@ -29,6 +29,6 @@ case "$1" in
         restore_from_snapshot
     ;;
     *)
-        echo "Usage: ./restore_db_from_snapshot.sh --restore <db_instance_identifier> <db_snapshot_identifier> <vpc_id> <db_instance_class>"
+        echo "Usage: $0 --restore <db_instance_identifier> <db_snapshot_identifier> <vpc_id> <db_instance_class>"
     ;;
 esac

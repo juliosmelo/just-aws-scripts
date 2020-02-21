@@ -124,7 +124,7 @@ case "$1" in
         delete_old_volume
     ;;
     *)
-        echo "Usage: ./resize_ebs_root_volume.sh --resize <instance_id> <new_volume_size> <aws_region>"
+        echo "Usage: $0 --resize <instance_id> <new_volume_size> <aws_region>"
     ;;
 esac
 
