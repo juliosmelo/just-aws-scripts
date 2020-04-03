@@ -1,4 +1,7 @@
 #!/bin/bash
+# after run this script you must extend the linux file system
+# check out this doc https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html#identify-linux-file-system
+
 instance_id=$2
 size=$3
 region=$4
